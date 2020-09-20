@@ -1,0 +1,5 @@
+git commit --amend -m "Chamges 2"
+
+git reset --soft HEAD~x
+
+x is the number of commits to go back from head, hsrd wil remove changes since then, soft will uncommit changes since then
